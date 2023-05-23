@@ -1,0 +1,126 @@
+.navbar_header {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.navbar_header ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+.navbar_header ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar_header .btn_click {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .navbar_header ul {
+    display: none;
+  }
+  .navbar_header .btn_click {
+    display: block;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+main .server {
+  background-image: url("https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg.webp");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+main .server h1 {
+  padding: 20px;
+  background-color: #fc6428;
+  max-width: 320px;
+  width: 100%;
+}
+main .server div {
+  padding-top: 75px;
+  display: flex;
+  width: 90%;
+}
+main .server div .hosting {
+  display: flex;
+  flex-direction: column;
+}
+main .server div .hosting a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+main .server div .hosting h2 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+main .server div .hosting h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+main .server div .hosting p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+main .server div .hosting button {
+  max-width: 200px;
+  padding: 15px;
+  background-color: #fc6428;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  main .server div {
+    display: flex;
+    flex-direction: column;
+  }
+  main .server div img {
+    padding-top: 20px;
+  }
+}
+main .our_service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  padding: 10px;
+}
+main .our_service h1 {
+  font-size: 40px;
+}
+main .our_service hr {
+  border: 1px solid;
+  width: 100px;
+}
+main .our_service p {
+  max-width: 40%;
+}
+main .hosting_section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  text-align: center;
+  max-width: 25%;
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
